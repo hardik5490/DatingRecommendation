@@ -46,4 +46,8 @@ public class Database {
 		return groupWiseUser.get(gender);
 	}
 
+	public void removeAll() {
+		groupWiseUser.clear();
+	}
+
 }

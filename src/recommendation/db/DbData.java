@@ -26,5 +26,10 @@ public class DbData {
 		database.addAll(users);
 		
 	}
+
+	public static void destroy() {
+		Database database = Database.getDatabaseInstance();
+		database.removeAll();
+	}
 	
 }
